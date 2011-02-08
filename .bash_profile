@@ -33,3 +33,4 @@ project
 
 
 alias emacs="emacs -nw"
+alias t="ruby -Itest"
