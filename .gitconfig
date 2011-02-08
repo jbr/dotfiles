@@ -1,3 +1,7 @@
 [user]
 	name = Jacob Rothstein
 	email = github@jacobrothstein.com
+[core]
+	editor = emacs
+[color]
+	ui = true
