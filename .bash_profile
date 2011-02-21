@@ -3,10 +3,9 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 fi
 
 export PS1='\n[\033[33m\u\033[0m @ \033[35m\H\033[0m] [\033[32m\w\033[0m]\033[34m$(__git_ps1)\033[0m\n\d \t [\#:\j]$ '
-
 export EDITOR=emacs
-
 export PATH=/usr/local/bin:$PATH
+export CLICOLOR=1
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
