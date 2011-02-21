@@ -30,6 +30,6 @@ function project {
 }
 project
 
-alias emacs="emacsclient -nw"
-alias emacsclient="emacs -nw"
+alias emacs="emacs -nw"
+alias emacsclient="emacsclient -nw"
 alias t="ruby -Itest"
